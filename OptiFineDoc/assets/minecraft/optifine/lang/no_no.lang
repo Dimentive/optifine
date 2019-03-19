@@ -1,6 +1,7 @@
 # Contributors of Norwegian Bokmål localization #
 #   Regnander (_Spitz) 2018-06-24 ---- 2018-08-06
 #   Eiliv U. Henschien (Eiliv) 2018-08-10 ---- 2018-08-11
+#   Dimentive 2019-03-19
 
 # General
 of.general.ambiguous=tvetydig
@@ -9,7 +10,7 @@ of.general.custom=Tilpasset
 of.general.from=Fra
 of.general.id=ID
 of.general.max=Maksimum
-of.general.restart=start på nytt
+of.general.restart=omstart
 of.general.smart=Smart
 
 # Keys
@@ -72,7 +73,7 @@ of.message.capeOF.error2=Feil: %s
 
 options.graphics.tooltip.1=Visuell kvalitet
 options.graphics.tooltip.2=  Rask - lavere kvalitet, hurtigere
-options.graphics.tooltip.3=  Stilig - høyere kvalitet, langsommere
+options.graphics.tooltip.3=  Stilig - høyere kvalitet, tregere
 options.graphics.tooltip.4=Endrer utseendet på skyer, blader, vann, skygger og
 options.graphics.tooltip.5=gresskanter.
 
@@ -87,7 +88,7 @@ of.options.renderDistance.ludicrous=Latterlig
 options.renderDistance.tooltip.1=Synlig avstand
 options.renderDistance.tooltip.2=   2 Liten - 32m (raskeste)
 options.renderDistance.tooltip.3=   8 Normal - 128m (normal)
-options.renderDistance.tooltip.4=  16 Lang - 256m (langsommere)
+options.renderDistance.tooltip.4=  16 Lang - 256m (tregere)
 options.renderDistance.tooltip.5=  32 Ekstrem - 512m (langsomste!) veldig ressurskrevende
 options.renderDistance.tooltip.6=  48 Sinnssyk - 768m, trenger 2 GB tildelt RAM
 options.renderDistance.tooltip.7=  64 Latterlig - 1024m, trenger 3 GB tildelt RAM
@@ -95,7 +96,7 @@ options.renderDistance.tooltip.8=Verdier over 16 er bare effektive i lokale verd
 
 options.ao.tooltip.1=Jevnt beslysningsnivå
 options.ao.tooltip.2=  AV - ingen jevn beslysning (hurtigste)
-options.ao.tooltip.3=  Minimum - enkelt jevn beslysning (langsommere)
+options.ao.tooltip.3=  Minimum - enkelt jevn beslysning (tregere)
 options.ao.tooltip.4=  Maksimum - avansert jevn beslysning (langsomste)
 
 options.framerateLimit.tooltip.1=Maksimal bildefrekvens
@@ -146,7 +147,7 @@ of.options.ALTERNATE_BLOCKS.tooltip.3=Avhenger av den valgte ressurspakken.
 of.options.FOG_FANCY=Tåke
 of.options.FOG_FANCY.tooltip.1=Type tåke
 of.options.FOG_FANCY.tooltip.2=  Rask - raskere tåke
-of.options.FOG_FANCY.tooltip.3=  Stilig - langsommere tåke, ser bedre ut
+of.options.FOG_FANCY.tooltip.3=  Stilig - tregere tåke, ser bedre ut
 of.options.FOG_FANCY.tooltip.4=  AV - ingen tåke, hurtigste
 of.options.FOG_FANCY.tooltip.5=Stilig tåke er bare tilgjengelig hvis det støttes av grafikk-
 of.options.FOG_FANCY.tooltip.6=kortet.
@@ -178,7 +179,7 @@ of.options.shaders.packDefault=(intern)
 of.options.shaders.ANTIALIASING=Kantutjevning
 of.options.shaders.ANTIALIASING.tooltip.1=Kantutjevning
 of.options.shaders.ANTIALIASING.tooltip.2=  AV - (standard) ingen kantutjevning (hurtigere)
-of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - glatte linjer og kanter (langsommere)
+of.options.shaders.ANTIALIASING.tooltip.3=  FXAA 2x, 4x - glatte linjer og kanter (tregere)
 of.options.shaders.ANTIALIASING.tooltip.4=FXAA er en etterbehandlingseffekt som glatter ut
 of.options.shaders.ANTIALIASING.tooltip.5=stiplede linjer og skarpe fargeendringer.
 of.options.shaders.ANTIALIASING.tooltip.6=Det er raskere enn tradisjonell kantutjevning og er
@@ -312,17 +313,17 @@ of.options.MIPMAP_TYPE.tooltip.6=  Trelineær - fineste utjevning (langsomste)
 of.options.AA_LEVEL=Kantutjevning
 of.options.AA_LEVEL.tooltip.1=Kantutjevning
 of.options.AA_LEVEL.tooltip.2=  AV - ingen kantutjevning (standard), hurtigere
-of.options.AA_LEVEL.tooltip.3=  2-16 - kantutjevnede linjer og kanter (langsommere)
+of.options.AA_LEVEL.tooltip.3=  2-16 - kantutjevnede linjer og kanter (tregere)
 of.options.AA_LEVEL.tooltip.4=Kantutjevning glatter ut ujevne linjer og skarpe farge-
 of.options.AA_LEVEL.tooltip.5=overganger.
 of.options.AA_LEVEL.tooltip.6=Bildefrekvensen kan synke betydelig når dette er aktivert.
 of.options.AA_LEVEL.tooltip.7=Alle nivåer støttes ikke av alle grafikkortester.
-of.options.AA_LEVEL.tooltip.8=Krever OMSTART!
+of.options.AA_LEVEL.tooltip.8=Effektiv etter en OMSTART!
 
 of.options.AF_LEVEL=Anisotropisk filtrering
 of.options.AF_LEVEL.tooltip.1=Anisotropisk filtrering
 of.options.AF_LEVEL.tooltip.2=  AV - standarddetaljer i teksturer (standard), hurtigere
-of.options.AF_LEVEL.tooltip.3=  2-16 - finere detaljer i mipmapteksturer (langsommere)
+of.options.AF_LEVEL.tooltip.3=  2-16 - finere detaljer i mipmapteksturer (tregere)
 of.options.AF_LEVEL.tooltip.4=Den anisotropiske filtreringen tilbakestiller detaljer i
 of.options.AF_LEVEL.tooltip.5=mipmapteksturer.
 of.options.AF_LEVEL.tooltip.6=Bildefrekvensen kan synke betydelig når dette er aktivert.
@@ -335,7 +336,7 @@ of.options.CLEAR_WATER.tooltip.3=  AV - standardvann
 of.options.RANDOM_ENTITIES=Tilfeldige enheter
 of.options.RANDOM_ENTITIES.tooltip.1=Tilfeldige enheter
 of.options.RANDOM_ENTITIES.tooltip.2=  AV - ingen tilfeldige enheter, hurtigere
-of.options.RANDOM_ENTITIES.tooltip.3=  PÅ - tilfeldige enheter, langsommere
+of.options.RANDOM_ENTITIES.tooltip.3=  PÅ - tilfeldige enheter, tregere
 of.options.RANDOM_ENTITIES.tooltip.4=Bruker tilfeldige teksturer for enhetene i spillet.
 of.options.RANDOM_ENTITIES.tooltip.5=Krever en ressurspakke med flere enhetsteksturer.
 
@@ -348,33 +349,33 @@ of.options.BETTER_GRASS.tooltip.4=  Stilig - dynamisk tekstur for gresskanter, l
 of.options.BETTER_SNOW=Bedre snø
 of.options.BETTER_SNOW.tooltip.1=Bedre snø
 of.options.BETTER_SNOW.tooltip.2=  AV - standardsnø, hurtigere
-of.options.BETTER_SNOW.tooltip.3=  PÅ - bedre snø, langsommere
+of.options.BETTER_SNOW.tooltip.3=  PÅ - bedre snø, tregere
 of.options.BETTER_SNOW.tooltip.4=Viser snø under gjennomsiktige blokker (gjerder, høyt
 of.options.BETTER_SNOW.tooltip.5=gress) når de ligger ved siden av snøblokker.
 
 of.options.CUSTOM_FONTS=Tilpasset skrift
 of.options.CUSTOM_FONTS.tooltip.1=Tilpasset skrift
-of.options.CUSTOM_FONTS.tooltip.2=  PÅ - bruk tilpasset skrift (standard), langsommere
+of.options.CUSTOM_FONTS.tooltip.2=  PÅ - bruk tilpasset skrift (standard), tregere
 of.options.CUSTOM_FONTS.tooltip.3=  AV - bruk standardskriften, hurtigere
 of.options.CUSTOM_FONTS.tooltip.4=De tilpassede skriftene leveres av den nåværende
 of.options.CUSTOM_FONTS.tooltip.5=ressurspakken.
 
 of.options.CUSTOM_COLORS=Tilpasset farger
 of.options.CUSTOM_COLORS.tooltip.1=Tilpasset farger
-of.options.CUSTOM_COLORS.tooltip.2=  PÅ - bruk tilpasset farger (standard), langsommere
+of.options.CUSTOM_COLORS.tooltip.2=  PÅ - bruk tilpasset farger (standard), tregere
 of.options.CUSTOM_COLORS.tooltip.3=  AV - bruk standardfargene, hurtigere
 of.options.CUSTOM_COLORS.tooltip.4=De tilpassede fargene leveres av den nåværende
 of.options.CUSTOM_COLORS.tooltip.5=ressurspakken
 
 of.options.SWAMP_COLORS=Sumpfarger
 of.options.SWAMP_COLORS.tooltip.1=Sumpfarger
-of.options.SWAMP_COLORS.tooltip.2=  PÅ - bruk sumpfarger (standard), langsommere
+of.options.SWAMP_COLORS.tooltip.2=  PÅ - bruk sumpfarger (standard), tregere
 of.options.SWAMP_COLORS.tooltip.3=  AV - bruk ikke sumpfarger, hurtigere
 of.options.SWAMP_COLORS.tooltip.4=Sumpfargene påvirker gress, løv, lianer og vann.
 
 of.options.SMOOTH_BIOMES=Utjevning av biomer
 of.options.SMOOTH_BIOMES.tooltip.1=Utjevning av biomer
-of.options.SMOOTH_BIOMES.tooltip.2=  PÅ - biomkanter glattet ut (standard), langsommere
+of.options.SMOOTH_BIOMES.tooltip.2=  PÅ - biomkanter glattet ut (standard), tregere
 of.options.SMOOTH_BIOMES.tooltip.3=  AV - biomkanter ikke glattet ut, hurtigere
 of.options.SMOOTH_BIOMES.tooltip.4=Utjevning av biomkanter gjøres ved prøvetaking og
 of.options.SMOOTH_BIOMES.tooltip.5=gjennomsnittsfarge på alle omkringliggende blokker.
@@ -433,7 +434,7 @@ of.options.CUSTOM_ENTITY_MODELS.tooltip.5=ressurspakken.
 
 of.options.CUSTOM_GUIS=Tilp. brukergrensesnitt
 of.options.CUSTOM_GUIS.tooltip.1=Tilpasset brukergrensesnitt
-of.options.CUSTOM_GUIS.tooltip.2=  PÅ - tilp. brukergrensesnitt (standard), langsommere
+of.options.CUSTOM_GUIS.tooltip.2=  PÅ - tilp. brukergrensesnitt (standard), tregere
 of.options.CUSTOM_GUIS.tooltip.3=  AV - standardbrukergrensesnitt, hurtigere
 of.options.CUSTOM_GUIS.tooltip.4=De tilpassede brukergrensesnittene leveres av den
 of.options.CUSTOM_GUIS.tooltip.5=nåværende ressurspakken.
@@ -444,7 +445,7 @@ of.options.CLOUDS=Sky
 of.options.CLOUDS.tooltip.1=Sky
 of.options.CLOUDS.tooltip.2=  Standard - følger alternativet "Grafikk"
 of.options.CLOUDS.tooltip.3=  Rask - lavere kvalitet, hurtigere
-of.options.CLOUDS.tooltip.4=  Stilig - høyere kvalitet, langsommere
+of.options.CLOUDS.tooltip.4=  Stilig - høyere kvalitet, tregere
 of.options.CLOUDS.tooltip.5=  AV - ingen skyer, hurtigste
 of.options.CLOUDS.tooltip.6=Raske skyer gjengis i 2D.
 of.options.CLOUDS.tooltip.7=Stilige skyer gjengis i 3D.
@@ -459,7 +460,7 @@ of.options.TREES.tooltip.1=Trær
 of.options.TREES.tooltip.2=  Standard - følger alternativet "Grafikk"
 of.options.TREES.tooltip.3=  Rask - lavere kvalitet, hurtigere
 of.options.TREES.tooltip.4=  Smart - høyere kvalitet, raskt
-of.options.TREES.tooltip.5=  Stilig - høyeste kvalitet, langsommere
+of.options.TREES.tooltip.5=  Stilig - høyeste kvalitet, tregere
 of.options.TREES.tooltip.6=Raske trær ugjennomsiktige blader.
 of.options.TREES.tooltip.7=Stilige og smarte trær har gjennomsiktige blader.
 
@@ -467,21 +468,21 @@ of.options.RAIN=Regn og snø
 of.options.RAIN.tooltip.1=Regn og snø
 of.options.RAIN.tooltip.2=  Standard - følger alternativet "Grafikk"
 of.options.RAIN.tooltip.3=  Rask - lett regn/snø, hurtigere
-of.options.RAIN.tooltip.4=  Stilig - tungt regn/snø, langsommere
+of.options.RAIN.tooltip.4=  Stilig - tungt regn/snø, tregere
 of.options.RAIN.tooltip.5=  AV - ingen regn/snø, hurtigste
 of.options.RAIN.tooltip.6=Regnlyder og nedbør vil fortsatt bli hørt og vises hvis
 of.options.RAIN.tooltip.7=regn er slått av.
 
 of.options.SKY=Himmel
 of.options.SKY.tooltip.1=Himmel
-of.options.SKY.tooltip.2=  PÅ - himmelen er synlig, langsommere
+of.options.SKY.tooltip.2=  PÅ - himmelen er synlig, tregere
 of.options.SKY.tooltip.3=  AV - himmelen er ikke synlig, hurtigere
 of.options.SKY.tooltip.4=Hvis himmelen er inaktivert, vil månen og solen fortsatt
 of.options.SKY.tooltip.5=være synlig.
 
 of.options.STARS=Stjerner
 of.options.STARS.tooltip.1=Stjerner
-of.options.STARS.tooltip.2=  PÅ - stjerner er synlige, langsommere
+of.options.STARS.tooltip.2=  PÅ - stjerner er synlige, tregere
 of.options.STARS.tooltip.3=  AV - stjerner er ikke synlige, hurtigere
 
 of.options.SUN_MOON=Sol og måne
@@ -520,7 +521,7 @@ of.options.DROPPED_ITEMS=Droppede gjenst.
 of.options.DROPPED_ITEMS.tooltip.1=Droppede gjenstander
 of.options.DROPPED_ITEMS.tooltip.2=  Standard - følger alternativet "Grafikk"
 of.options.DROPPED_ITEMS.tooltip.3=  Rask - gjengis i 2D, hurtigere
-of.options.DROPPED_ITEMS.tooltip.4=  Stilig - gjengis i 3D, langsommere
+of.options.DROPPED_ITEMS.tooltip.4=  Stilig - gjengis i 3D, tregere
 
 options.entityShadows.tooltip.1=Enhetskygger
 options.entityShadows.tooltip.2=  PÅ - vis skygger for enheter
@@ -530,7 +531,7 @@ of.options.VIGNETTE=Vignett
 of.options.VIGNETTE.tooltip.1=Visuell effekt som mørkner skjermens hjørner litt
 of.options.VIGNETTE.tooltip.2=  Standard - følger alternativet "Grafikk" (standard)
 of.options.VIGNETTE.tooltip.3=  Rask - vignett er deaktivert (hurtigere)
-of.options.VIGNETTE.tooltip.4=  Stilig - vignett er aktivert (langsommere)
+of.options.VIGNETTE.tooltip.4=  Stilig - vignett er aktivert (tregere)
 of.options.VIGNETTE.tooltip.5=Vignetten kan ha en betydelig innvirkning på bilde-
 of.options.VIGNETTE.tooltip.6=frekvensen, spesielt når fullskjerm er aktivert.
 of.options.VIGNETTE.tooltip.7=Vignetteffekten er veldig diskré og kan slås av uten
@@ -589,7 +590,7 @@ of.options.FAST_MATH.tooltip.7=Dette alternativet kan påvirke verdensgenerasjon
 
 of.options.CHUNK_UPDATES=Verdensbitoppdateringer
 of.options.CHUNK_UPDATES.tooltip.1=Verdensbitoppdateringer
-of.options.CHUNK_UPDATES.tooltip.2=  1 - langsommere inlastn., høyere bildefrekv. (standard)
+of.options.CHUNK_UPDATES.tooltip.2=  1 - tregere inlastn., høyere bildefrekv. (standard)
 of.options.CHUNK_UPDATES.tooltip.3=  3 - hurtigere inlastning, lavere bildefrekvens
 of.options.CHUNK_UPDATES.tooltip.4=  5 - hurtigste inlastning, laveste bildefrekvens
 of.options.CHUNK_UPDATES.tooltip.5=Antall verdensbitoppdateringer per gjengitt ramme.
@@ -670,14 +671,14 @@ of.options.LAGOMETER.tooltip.8=  * Grønn - Terrenggjengivelse
 
 of.options.PROFILER=Feilsøkingsprofilering
 of.options.PROFILER.tooltip.1=Feilsøkingsprofilering
-of.options.PROFILER.tooltip.2=  PÅ - feilsøkingsprofileringen kjører, langsommere
+of.options.PROFILER.tooltip.2=  PÅ - feilsøkingsprofileringen kjører, tregere
 of.options.PROFILER.tooltip.3=  AV - feilsøkingsprofileringen kjører ikke, hurtigere
 of.options.PROFILER.tooltip.4=Feilsøkingsprofileringen samler inn og viser feilsøkings-
 of.options.PROFILER.tooltip.5=informasjon når feilsøkingsskjermen er åpen (F3).
 
 of.options.WEATHER=Vær
 of.options.WEATHER.tooltip.1=Vær
-of.options.WEATHER.tooltip.2=  PÅ - vær er aktivert, langsommere
+of.options.WEATHER.tooltip.2=  PÅ - vær er aktivert, tregere
 of.options.WEATHER.tooltip.3=  AV - vær er deaktivert, hurtigere
 of.options.WEATHER.tooltip.4=Denne innstillingen inkluderer regn, snø og torden.
 of.options.WEATHER.tooltip.5=Dette fungerer bare i lokale verdener.
@@ -696,12 +697,12 @@ of.options.TIME.tooltip.6=lokale verdener.
 options.fullscreen.tooltip.1=Fullskjerm
 options.fullscreen.tooltip.2=  PÅ - bruk fullskjermsmodus
 options.fullscreen.tooltip.3=  AV - bruk vindusmodus
-options.fullscreen.tooltip.4=Fullskjermmodus kan være raskere eller langsommere enn
+options.fullscreen.tooltip.4=Fullskjermmodus kan være raskere eller tregere enn
 options.fullscreen.tooltip.5=vindusmodus, avhengig av grafikkortet.
 
 of.options.FULLSCREEN_MODE=Fullskjermsmodus
 of.options.FULLSCREEN_MODE.tooltip.1=Fullskjermsmodus
-of.options.FULLSCREEN_MODE.tooltip.2=  Standard - bruk datamaskinens oppløsning, langsommere
+of.options.FULLSCREEN_MODE.tooltip.2=  Standard - bruk datamaskinens oppløsning, tregere
 of.options.FULLSCREEN_MODE.tooltip.3=  BxH - bruk tilpasset oppløsning, kan være raskere
 of.options.FULLSCREEN_MODE.tooltip.4=Den valgte oppløsningen brukes i fullskjermmodus (F11).
 of.options.FULLSCREEN_MODE.tooltip.5=Lavere oppløsninger bør vanligvis være raskere.
@@ -727,8 +728,8 @@ of.options.AUTOSAVE_TICKS.tooltip.3=Automatisk lagring forårsaker et ukjent yte
 
 of.options.SCREENSHOT_SIZE=Skjermbildestr.
 of.options.SCREENSHOT_SIZE.tooltip.1=Skjermbildestørrelse
-of.options.SCREENSHOT_SIZE.tooltip.2=  Standard - standardstørrelse på skjermbilder
-of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - tilpasset størrelse på skjermbilder
+of.options.SCREENSHOT_SIZE.tooltip.2=  Standard - standardstørrelse for skjermbilder
+of.options.SCREENSHOT_SIZE.tooltip.3=  2x-4x - tilpasset størrelse for skjermbilder
 of.options.SCREENSHOT_SIZE.tooltip.4=Større skjermbilder kan kreve mer minne.
 of.options.SCREENSHOT_SIZE.tooltip.5=Ikke kompatibel med Rask gjengivelse og Kantutjevning.
 of.options.SCREENSHOT_SIZE.tooltip.6=Krever grafikkprosessoren for å støtte framebuffer.
